@@ -43,10 +43,10 @@ describe TalkPairs do
 		end
 
 		context 'Given [7, 2, 9, 10, 9, 5, 2, 5, 4, 10, 9, 9, 1, 9, 8, 8, 9, 4, 9, 4, 8]' do
-			it "should have count equal 29" do
+			it "should have count equal 26" do
 				subject.elements = [7, 2, 9, 10, 9, 5, 2, 5, 4, 10, 9, 9, 1, 9, 8, 8, 9, 4, 9, 4, 8]
 				subject.checkPairs()
-				expect(subject.count).to eql(29)
+				expect(subject.count).to eql(26)
 			end
 		end
 	end
